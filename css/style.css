@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+.navbar
+{
+	height: 50px;
+	background: black;
+	border-radius: 5px;
+	width: 100%;
+    transition: all 0.3s ease;
+}
+
+ .navbar .menu li a{
+   
+    color: whitesmoke;
+    	font-family:'Balsamiq' ,sans-serif;
+    		text-shadow: gold -3px 4px 8px;
+     font-size: 20px;
+     transition: color 0.3s ease;
+   }
+    
+    .navbar .menu li a:hover{
+    	color:gold;
+       
+    }
+
+    .navbar .menu li{
+
+    	display: inline-block;
+  
+    }
+
+	.navbar .menu 
+	{
+	   	word-spacing: 78px;
+	
+        margin-top: 15px;
+	   position: absolute;
+      right: 90px;
+      justify-content: space-between;
+	}
+	.logo
+	{
+		font-family:'Balsamiq' ,sans-serif;
+		color: yellow;
+		font-size: 34px;
+		margin-left: 15px;
+		text-shadow: darkseagreen -3px 4px 8px; 
+		cursor: pointer;
+        padding-top: 2px;
+        position: absolute;
+	}
+	 .navbar .logo span
+	{
+		color: crimson;
+		font-size: 34px;
+		text-shadow: none; 
+	}
+	
+
+
+
+	@keyframes move_wave {
+    0% {
+        transform: translateX(0) translateZ(0) scaleY(1)
+    }
+    50% {
+        transform: translateX(-25%) translateZ(0) scaleY(0.55)
+    }
+    100% {
+        transform: translateX(-50%) translateZ(0) scaleY(1)
+    }
+}
+.heading
+{
+	color: whitesmoke;
+	font-family:'Balsamiq' ,sans-serif;
+    font-size: 25px;
+    margin-top: 120px;   
+    margin-left: 85px;
+    word-spacing: 1px;
+    animation: ani  2s forwards;
+    transition: all 0.3s ease;
+}
+.heading2
+{
+	color: whitesmoke;
+	font-family:'Balsamiq' ,sans-serif;
+    font-size: 45px;
+    margin-top: 30px;   
+    margin-left: 105px;
+    word-spacing: 1px;
+    animation: fadeInAnimation 15s ease;
+     transition: all 0.3s ease;
+}
+
+
+.type1
+{
+	color: whitesmoke;
+	font-size: 30px;
+    margin-left:85px;
+    margin-top:35px;
+    animation: fadeInAnimation 15s ease;
+     transition: all 0.3s ease;
+}
+
+ @keyframes cv {
+            0% {
+                opacity: 0;
+            }
+            100%
+            {
+            	opacity: 1;
+            	
+            }
+            }
+ 
+ @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100%
+            {
+            	opacity: 1;
+            	
+            }
+            }
+
+
+@keyframes ani
+{
+	0%{
+		opacity: 0;
+		transform: translateX(-5%) translateZ(0) scale(-1)
+	}
+	80%{
+		
+		transform:  scale(1.2)
+
+	}
+	
+	
+}
+
+.content{
+		background-image: linear-gradient(to top, #0b4a8c 10% , #022852 80%);
+	    height: 100%;
+	    position: absolute;
+	    overflow: hidden;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 10;
+        
+        margin: auto;
+        margin-top: 1px;
+        font-family:'Balsamiq' ,sans-serif;
+       
+	}
+.About{
+padding: 100px 0;
+font-family:'Balsamiq' ,sans-serif;
+margin-top: 105vh;
+}
+.gh{
+	color: black;
+    font-family:'Balsamiq' ,sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+}
+.About .gh::before
+{
+content: "";
+position: absolute;
+width: 180px;
+height: 3px;
+background: black;
+left: 50%;
+bottom: -20px;
+transform: translateX(-50%);
+}
+.About .gh::after
+{
+content: "who i am";
+position: absolute;
+background:white;
+left: 50%;
+bottom: -30px;
+font-size: 20px;
+color: crimson;
+transform: translateX(-50%);
+padding: 5px;
+margin-top: 20%;
+}
+.About  img{
+height: 400px;
+width: 320px;
+object-fit: cover;
+margin-left: 60px;
+border-radius: 6px;
+
+}
+.left
+{
+	width: 40%;
+float: left;
+}
+.About .right .text span
+{
+	color: crimson;
+}
+.right
+{
+width: 60%;
+float: right;
+margin-top: 7%;
+}
+ .text
+{
+	font-size: 40px;
+   
+}
+.para{
+	font-size: 20px;
+	margin-top: 20px;
+	padding-bottom: 30px;
+}
+.download
+{
+display: inline-block;
+font-size: 20px;
+background: crimson;
+color: white;
+border-radius: 6px;
+padding: 10px 30px;
+border: 2px solid crimson;
+transition: all 0.3s ease;
+}
+.download:hover
+{
+	color: crimson;
+	background: none;
+}
+.skills
+{
+	margin-top: 50px;
+}
+.About .info span{
+ color:black;
+ font-weight: 600;
+ font-size: 20px;
+}
+.About .info .line
+{
+	height: 5px;
+	width: 80%;
+	background: grey;
+	margin-top: 9px;
+	position: relative;
+}
+
+.About .info .line::before
+{
+	content: "";
+	height: 100%;
+   position: absolute;
+	width: 80%;
+	background: crimson;
+
+}
+.About .info .html::before
+{
+width: 90%;
+}
+.About .info .css::before
+{
+width: 80%;
+}
+.About .info .js::before
+{
+width: 70%;
+}
+.About .info .sql::before
+{
+width: 85%;
+}
+
+.About .info
+{
+
+margin-top: 30px;
+display: flex;
+width:80%;
+justify-content: space-between;
+}
+
+.contact{
+padding: 100px 0;
+font-family:'Balsamiq' ,sans-serif;
+margin-top:80vh;
+height: 100vh;
+}
+.gh{
+	color: black;
+    font-family:'Balsamiq' ,sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+}
+.contact .gh::before
+{
+content: "";
+position: absolute;
+width: 200px;
+height: 3px;
+background: black;
+left: 50%;
+bottom: -20px;
+transform: translateX(-50%);
+}
+
+.contact .gh::after
+{
+content: "get in touch";
+position: absolute;
+background:white;
+left: 50%;
+bottom: -30px;
+font-size: 20px;
+color: crimson;
+transform: translateX(-50%);
+padding: 5px;
+margin-top: 20%;
+}
+.column-left
+{
+	margin-left:150px;
+	margin-top: 80px;
+width: 50%;
+float: left;
+}
+.pcontact
+{
+margin-top: 20px;	
+font-family:'Balsamiq' ,sans-serif;
+}
+.row{
+	margin-top: 35px;
+	
+	display: flex;
+
+}
+.sub-title{
+	margin-top: 5px;
+margin-left: 25px;
+}
+.head{
+	font-weight: 600;
+margin-left: 25px;
+margin-top: -5px;
+}
+
+.fas {
+	color: crimson;
+}
+.column-right{
+	width: 50%;
+	float: right;
+	margin-top: -280px;
+
+}
+.text1{
+font-size: 20px;
+    font-weight: 600;
+
+}
+.fields
+{
+	display: flex;
+}
+.fields .field input{
+height: 45px;
+border-radius: 6px;
+width: 100%;
+border: 1px solid grey;
+outline: none;
+padding: 0 15px;
+margin-top: 10px;
+}
+.field input{
+height: 45px;
+border-radius: 6px;
+border: 1px solid grey;
+padding: 0 15px;
+font-size: 17px;
+width: 77%;
+margin-bottom: 10px;
+}
+.email
+{
+margin-left: 20px;
+}
+
+.textarea textarea
+{
+	padding-top: 10px;
+	width: 77%;
+	height: 80px;
+}
+.button button
+{
+margin-top: 10px;
+display: inline-block;
+font-size: 15px;
+background: crimson;
+color: white;
+border-radius: 6px;
+padding: 10px 30px;
+border: 2px solid crimson;
+transition: all 0.3s ease;
+}
+.button button:hover
+{
+	color: crimson;
+	background: none;
+}
+footer
+{
+	background: black;
+	padding: 20px 23px;
+	color: whitesmoke;
+}
+footer span a{
+	color: crimson;
+	text-decoration: none;
+
+}
+.scroll-up-btn{
+	position: fixed;
+	height: 45px;
+	width: 42px;
+   background: crimson;
+	right: 30px;
+	bottom: 30px;
+	text-align: center;
+	border-radius: 4px;
+	font-size: 25px;
+	cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.scroll-up-btn i{
+	color: whitesmoke;
+}
+.waveWrapper {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+  
+}
+
+
+.waveWrapperInner {
+    position: absolute;
+    width: 100%;
+    height: 93%;
+    bottom: -1px;
+}
+.bgtop {
+    z-index: 15;
+    opacity: 0.5;
+}
+.bgMiddle {
+    z-index: 10;
+    opacity: 0.75;
+    
+}
+.bgBottom {
+    z-index: 5;
+    
+}
+.wave {
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+}
+.waveTop {
+    background-size: 50% 100px;
+}
+.waveAnimation .waveTop {
+  animation: move-wave 3s;
+   -webkit-animation: move-wave 3s;
+   -webkit-animation-delay: 1s;
+   animation-delay: 1s;
+}
+.waveMiddle {
+    background-size: 50% 120px;
+}
+.waveAnimation .waveMiddle {
+    animation: move_wave 10s linear infinite;
+}
+.waveBottom {
+    background-size: 50% 100px;
+}
+.waveAnimation .waveBottom {
+    animation: move_wave 15s linear infinite;
+}
