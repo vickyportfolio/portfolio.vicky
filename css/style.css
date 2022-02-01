@@ -1,3 +1,140 @@
+/* responsive media query*/
+@media screen and (max-width: 991px)
+{
+
+	.navbar .max-width .menu{
+		margin:0;
+	position: absolute;
+	z-index: 1000;
+	padding: 10px;
+	background: black;
+	right: 25px;
+	top: 30px;
+	border: 2px solid crimson;
+	border-radius: 8px;
+    width: 43%;
+    opacity: 0.92;
+}
+}
+
+
+@media screen and (max-width: 970px)
+{
+	.About .right
+	{
+		width: 50%;
+		 margin-top: 150px;
+
+	}
+	.About .left{
+     width: 50%;
+	}
+     .About .left img{
+     height:300px;
+     width: 250px;
+     margin-top: 150px;
+	}
+
+}
+
+@media screen and (max-width: 628px)
+{
+	.About .right
+	{
+		width: 40%;
+		 margin-top: 150px;
+	}
+     .About .left img{
+     height:250px;
+     width: 200px;
+     margin-top: 250px;
+    }
+  
+}
+@media screen and (max-width: 440px)
+{
+	.About .right
+	{
+		width: 40%;
+		 margin-top: 150px;
+	}
+	.About .left {
+		width: 60%
+	}
+     .About .left img{
+     height:200px;
+     width: 150px;
+     margin-top: 250px;
+    }
+  
+}
+@media screen and (max-width: 1228px){
+	.contact .column-left{
+
+          margin-left: 15px;
+         }
+}
+
+
+	
+
+
+@media screen and (max-width: 970px)
+{
+	.contact .max-width
+	{
+		margin-top:100px;
+	}
+
+}
+@media screen and (max-width: 484px)
+{
+	.contact .column-left{
+
+          width: 50%;
+         margin-left: 5px;
+         }
+         .contact .column-right{
+
+          width: 50%;
+         }
+
+
+}
+@media screen and (max-width: 462px)
+{
+	.contact .max-width
+	{
+		margin-top:200px;
+	}
+
+}
+
+@media screen and (max-width: 1326px)
+{
+	footer
+	{
+      margin-top:170px;
+	}
+}
+@media screen and (max-width: 971px)
+{
+	footer
+	{
+		margin-top:220px;
+	}
+}
+@media screen and (max-width: 462px)
+{
+	footer
+	{
+		margin-top:350px;
+	}
+}
+
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 *{
 	margin: 0;
@@ -17,7 +154,12 @@ html
 	width: 100%;
     transition: all 0.3s ease;
 }
-
+.menu-btn
+{
+	float: right ;
+	margin-top: 17px;
+	margin-right: 25px;
+}
  .navbar .menu li a{
    
     color: whitesmoke;
@@ -156,8 +298,8 @@ html
 	    height: 100%;
 	    position: absolute;
 	    overflow: hidden;
-        position: absolute;
-        left: 0;
+ 
+        left:0px;
         right: 0;
         bottom: 10;
         
@@ -308,7 +450,7 @@ justify-content: space-between;
 .contact{
 padding: 100px 0;
 font-family:'Balsamiq' ,sans-serif;
-margin-top:80vh;
+margin-top:100vh;
 height: 100vh;
 }
 .gh{
@@ -441,6 +583,7 @@ footer
 	background: black;
 	padding: 20px 23px;
 	color: whitesmoke;
+
 }
 footer span a{
 	color: crimson;
