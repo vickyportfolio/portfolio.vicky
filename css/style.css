@@ -16,7 +16,13 @@
     opacity: 0.92;
 }
 }
-
+@media screen and (min-device-width: 991px) and (max-device-width:1326px) 
+{
+   .menu-btn
+   {
+   	display: none;
+   }
+}
 
 @media screen and (max-width: 970px)
 {
@@ -51,33 +57,103 @@
     }
   
 }
+@media screen and (max-width: 594px)
+{
+    #About .left 
+    {
+             margin-left: 120px;
+             margin-top: -80px;
+             margin-bottom: 40px;
+    }
+       #About .right .text
+       {
+             font-size: 20px;
+       }
+        #About .right .text .para
+        {
+        	font-size: 17px;
+        }
+   #About .right 
+   {
+    float: none;
+      margin-left: 150px;
+    }
+    
+    #About .right .skills .info span
+    {
+    	font-size: 13px;
+    }
+  }
+
+@media screen and (max-width: 465px)
+{
+	#About .right .text .download
+	{
+		font-size: 10px;
+
+	}
+}
+
+
 @media screen and (max-width: 440px)
 {
 	.About .right
 	{
 		width: 40%;
 		 margin-top: 150px;
+
 	}
 	.About .left {
 		width: 60%
+	}
+	#About .left 
+	{
+		margin-left: 70px;
 	}
      .About .left img{
      height:200px;
      width: 150px;
      margin-top: 250px;
     }
-  
+   #About .right .text .para
+   {
+   	font-size: 14px;
+   }
 }
+
+@media screen and (max-width: 364px)
+{
+    #About .left 
+    {
+    	margin-left: 30px;
+    	margin-top: -150px;
+    }
+       #About .right 
+       {
+       	margin-left: 100px;
+       }
+}
+@media screen and (max-width: 313px)
+{
+	#About .right .text a
+	{
+		font-size: 7px;
+
+	}
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 1228px){
 	.contact .column-left{
 
           margin-left: 15px;
          }
 }
-
-
-	
-
 
 @media screen and (max-width: 970px)
 {
@@ -87,6 +163,23 @@
 	}
 
 }
+
+@media screen and (max-width: 594px)
+{
+     #contact
+     {
+     	margin-top: -140px;
+     }
+     .max-width
+     {
+     	font-size: 12px;
+     }
+    }
+
+
+
+
+
 @media screen and (max-width: 484px)
 {
 	.contact .column-left{
@@ -98,16 +191,37 @@
 
           width: 50%;
          }
-
-
 }
-@media screen and (max-width: 462px)
+@media screen and (max-width: 363px)
 {
-	.contact .max-width
-	{
-		margin-top:200px;
+	#contact .max-width .column-right #contact-form .fields .field input
+ 	{
+      font-size: 12px;
+      height: 30px;
 	}
+	#contact .max-width .column-right #contact-form  .field input
+	{
+	  font-size: 12px;
+      height: 30px;	
+	}
+#contact .max-width .column-right #contact-form  .field textarea
+{
+	 font-size: 12px;
+	 margin-left: 5px;
+}
 
+	#contact .max-width .column-right #contact-form .button button
+	{
+		font-size: 8px;
+		margin-left: 10px;
+	}
+}
+@media screen and (max-width: 293px)
+{
+  #contact .max-width .column-left .row .info .head .sub-title
+  {
+    margin-right: 10px;
+  }
 }
 
 @media screen and (max-width: 1326px)
@@ -367,6 +481,7 @@ float: left;
 width: 60%;
 float: right;
 margin-top: 7%;
+
 }
  .text
 {
